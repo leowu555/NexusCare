@@ -1,0 +1,56 @@
+# OS
+.DS_Store
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.pt
+*.onnx
+*.caffemodel
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Media / local data (large assets stay local)
+data/videos/
+data/faces/
+*.mp4
+*.avi
+*.mkv
+
+# Secrets / keys
+*.pem
+credentials.json
+service-account*.json
